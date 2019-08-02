@@ -9,7 +9,8 @@ var sequelize = new Sequelize('jobinfo','root','123456',{
         max:1000,
         min:0,
         idle:10000
-    }
+    },
+    timezone:"+8:00"
 })
 
 function defineModel(name,attributes){

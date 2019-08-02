@@ -10,9 +10,9 @@ async function pushData(Ins,infos){
         })
         if(!ins[1]){
             ins[0].update(item)
-            console.log('||====update For:',jobid,item.title,ins[1],new Date())
+            console.log('||====update For:',jobid,item.title,ins[1],new Date().toString())
         }else{
-            console.log('||====create as:',jobid,item.title,ins[1],new Date())
+            console.log('||====create as:',jobid,item.title,ins[1],new Date().toString())
         }
 
     })
